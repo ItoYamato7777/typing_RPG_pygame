@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# Virtual Environment
+venv/
+env/
+.env
+
+# Pygbag
+build/web/
+
+# OS generated files
+.DS_Store
+Thumbs.db
