@@ -11,7 +11,7 @@ class Game:
         pygame.init()
         pygame.mixer.init()
         self.screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
-        pygame.display.set_caption("CodeQuest - IT Typing RPG")
+        pygame.display.set_caption("IT Typing RPG")
         self.clock = pygame.time.Clock()
 
         self.assets = AssetLoader()
